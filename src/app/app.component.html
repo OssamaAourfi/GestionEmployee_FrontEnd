@@ -1,0 +1,28 @@
+<nav class="navbar navbar-expand-lg bg-body-tertiary " data-bs-theme="dark">
+  <div class="container-fluid">
+  
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" routerLinkActive="active" routerLink="employees">Employee List</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLinkActive="active" routerLink="create-employee">Create Employee</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container mt-5">
+  <router-outlet></router-outlet>
+</div>
+<footer class="footer" >
+  <div class="container" >
+    <span>All rights Reserved By OSSAMA AOURFI</span>
+  </div>
+</footer>
